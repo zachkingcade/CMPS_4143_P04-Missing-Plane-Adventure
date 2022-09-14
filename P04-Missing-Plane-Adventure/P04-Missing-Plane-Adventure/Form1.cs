@@ -10,12 +10,27 @@ using System.Windows.Forms;
 
 namespace P04_Missing_Plane_Adventure
 {
-    public partial class Form1 : Form
+    public partial class Pregame_Form : Form
     {
-        public Form1()
+        public Pregame_Form()
         {
             InitializeComponent();
         }
 
+        private void customRadioCheck_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (customRadioCheck.Checked)
+            {
+                widthInput.Enabled = true;
+                heightInput.Enabled = true;
+            }
+            else
+            {
+                widthInput.Text = "10";
+                heightInput.Text = "10";
+                widthInput.Enabled = false;
+                heightInput.Enabled = false;
+            }
+        }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.exe
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.deps.json
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.runtimeconfig.json
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.runtimeconfig.dev.json
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.dll
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\bin\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.pdb
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.csproj.AssemblyReference.cache
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04_Missing_Plane_Adventure.Form1.resources
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.csproj.GenerateResource.cache
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.AssemblyInfoInputs.cache
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.AssemblyInfo.cs
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.csproj.CoreCompileInputs.cache
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.dll
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.pdb
+C:\Users\Zach's Desktop\Documents\code\CMPS_4143_P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\P04-Missing-Plane-Adventure\obj\Debug\netcoreapp3.1\P04-Missing-Plane-Adventure.genruntimeconfig.cache
