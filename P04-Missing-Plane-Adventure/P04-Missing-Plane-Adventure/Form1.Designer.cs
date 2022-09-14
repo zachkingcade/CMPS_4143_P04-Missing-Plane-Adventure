@@ -41,8 +41,10 @@ namespace P04_Missing_Plane_Adventure
             // 
             this.widthInput.Location = new System.Drawing.Point(62, 34);
             this.widthInput.Name = "widthInput";
+            this.widthInput.PlaceholderText = "Enter Whole Number.......";
             this.widthInput.Size = new System.Drawing.Size(131, 23);
             this.widthInput.TabIndex = 0;
+            this.widthInput.Text = "10";
             // 
             // widthLabel
             // 
@@ -68,6 +70,7 @@ namespace P04_Missing_Plane_Adventure
             this.heightInput.Name = "heightInput";
             this.heightInput.Size = new System.Drawing.Size(131, 23);
             this.heightInput.TabIndex = 5;
+            this.heightInput.Text = "10";
             // 
             // customRadioCheck
             // 
@@ -88,6 +91,7 @@ namespace P04_Missing_Plane_Adventure
             this.startButton.TabIndex = 7;
             this.startButton.Text = "Start Game";
             this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // Pregame_Form
             // 

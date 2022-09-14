@@ -32,5 +32,16 @@ namespace P04_Missing_Plane_Adventure
                 heightInput.Enabled = false;
             }
         }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+
+            //Create a game window and show it
+            GameWindow game = new GameWindow();
+            game.Show();
+
+            //close the current pregame window
+            this.Hide();
+        }
     }
 }
