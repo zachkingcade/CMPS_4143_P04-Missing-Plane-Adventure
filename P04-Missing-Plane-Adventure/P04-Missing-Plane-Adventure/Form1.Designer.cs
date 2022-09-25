@@ -29,57 +29,40 @@ namespace P04_Missing_Plane_Adventure
         /// </summary>
         private void InitializeComponent()
         {
-            this.widthInput = new System.Windows.Forms.TextBox();
-            this.widthLabel = new System.Windows.Forms.Label();
-            this.heightLabel = new System.Windows.Forms.Label();
-            this.heightInput = new System.Windows.Forms.TextBox();
+            this.sizeInput = new System.Windows.Forms.TextBox();
+            this.sizeLabel = new System.Windows.Forms.Label();
             this.customRadioCheck = new System.Windows.Forms.CheckBox();
             this.startButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // widthInput
+            // sizeInput
             // 
-            this.widthInput.Location = new System.Drawing.Point(62, 34);
-            this.widthInput.Name = "widthInput";
-            this.widthInput.PlaceholderText = "Enter Whole Number.......";
-            this.widthInput.Size = new System.Drawing.Size(131, 23);
-            this.widthInput.TabIndex = 0;
-            this.widthInput.Text = "10";
+            this.sizeInput.Enabled = false;
+            this.sizeInput.Location = new System.Drawing.Point(62, 34);
+            this.sizeInput.Name = "sizeInput";
+            this.sizeInput.PlaceholderText = "Enter Whole Number.......";
+            this.sizeInput.Size = new System.Drawing.Size(131, 23);
+            this.sizeInput.TabIndex = 0;
+            this.sizeInput.Text = "10";
+            this.sizeInput.TextChanged += new System.EventHandler(this.sizeInput_TextChanged);
             // 
-            // widthLabel
+            // sizeLabel
             // 
-            this.widthLabel.AutoSize = true;
-            this.widthLabel.Location = new System.Drawing.Point(12, 37);
-            this.widthLabel.Name = "widthLabel";
-            this.widthLabel.Size = new System.Drawing.Size(39, 15);
-            this.widthLabel.TabIndex = 1;
-            this.widthLabel.Text = "Width";
-            // 
-            // heightLabel
-            // 
-            this.heightLabel.AutoSize = true;
-            this.heightLabel.Location = new System.Drawing.Point(12, 72);
-            this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(43, 15);
-            this.heightLabel.TabIndex = 4;
-            this.heightLabel.Text = "Height";
-            // 
-            // heightInput
-            // 
-            this.heightInput.Location = new System.Drawing.Point(62, 69);
-            this.heightInput.Name = "heightInput";
-            this.heightInput.Size = new System.Drawing.Size(131, 23);
-            this.heightInput.TabIndex = 5;
-            this.heightInput.Text = "10";
+            this.sizeLabel.AutoSize = true;
+            this.sizeLabel.Location = new System.Drawing.Point(12, 37);
+            this.sizeLabel.Name = "sizeLabel";
+            this.sizeLabel.Size = new System.Drawing.Size(27, 15);
+            this.sizeLabel.TabIndex = 1;
+            this.sizeLabel.Text = "Size";
             // 
             // customRadioCheck
             // 
             this.customRadioCheck.AutoSize = true;
             this.customRadioCheck.Location = new System.Drawing.Point(12, 9);
             this.customRadioCheck.Name = "customRadioCheck";
-            this.customRadioCheck.Size = new System.Drawing.Size(137, 19);
+            this.customRadioCheck.Size = new System.Drawing.Size(130, 19);
             this.customRadioCheck.TabIndex = 6;
-            this.customRadioCheck.Text = "Custom dimensions?";
+            this.customRadioCheck.Text = "Custom Size? (2-20)";
             this.customRadioCheck.UseVisualStyleBackColor = true;
             this.customRadioCheck.CheckedChanged += new System.EventHandler(this.customRadioCheck_CheckedChanged_1);
             // 
@@ -100,10 +83,8 @@ namespace P04_Missing_Plane_Adventure
             this.ClientSize = new System.Drawing.Size(205, 246);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.customRadioCheck);
-            this.Controls.Add(this.heightInput);
-            this.Controls.Add(this.heightLabel);
-            this.Controls.Add(this.widthLabel);
-            this.Controls.Add(this.widthInput);
+            this.Controls.Add(this.sizeLabel);
+            this.Controls.Add(this.sizeInput);
             this.Name = "Pregame_Form";
             this.Text = "Pregame Form";
             this.ResumeLayout(false);
@@ -113,10 +94,8 @@ namespace P04_Missing_Plane_Adventure
 
         #endregion
 
-        private System.Windows.Forms.TextBox widthInput;
-        private System.Windows.Forms.Label widthLabel;
-        private System.Windows.Forms.Label heightLabel;
-        private System.Windows.Forms.TextBox heightInput;
+        private System.Windows.Forms.TextBox sizeInput;
+        private System.Windows.Forms.Label sizeLabel;
         private System.Windows.Forms.CheckBox customRadioCheck;
         private System.Windows.Forms.Button startButton;
     }
